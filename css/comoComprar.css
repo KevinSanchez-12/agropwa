@@ -1,0 +1,238 @@
+.espaciotitulo{
+	height: 30px;
+}
+.tituloagropwa{
+	z-index: 100;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+	-webkit-transition-duration: 1s;
+  	-moz-transition-duration: 1s;
+  	-o-transition-duration: 1s;
+  	transition-duration: 1s;
+}
+.tituloagropwa span{
+	color: #44bd32;
+}
+.contenedormenu{
+	height: 10px;
+	width: 650px;
+	display: flex;
+	margin-left: 600px;
+	margin-top: -35px;
+}
+.contenedormenu a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	margin-left: 30px;
+	text-decoration: none;
+	color: black;
+}
+.contenedormenu a:hover{
+	color: #44bd32;
+}
+.contenedoricon{
+	margin-left: 1200px;
+	display: flex;
+	margin-top: -15px;
+}
+.contenedoricon a{
+	margin-left: 10px;
+	-webkit-transition-duration: 1s;
+  	-moz-transition-duration: 1s;
+  	-o-transition-duration: 1s;
+  	transition-duration: 1s;
+}
+.contenedoricon a:hover{
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transform:scale(1.05);
+  	-moz-transition-duration:(1.05);
+  	-o-transition-duration:(1.05);
+  	transform:scale(1.05);
+}
+.contenidoconsulta{
+	z-index: 10000;
+	height: 400px;
+	width: 500px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.contenidoconsulta h1{
+	z-index: 100;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	-webkit-transition-duration: 1s;
+  	-moz-transition-duration: 1s;
+  	-o-transition-duration: 1s;
+  	transition-duration: 1s;
+}
+.contenidoconsulta span{
+	color: #44bd32;
+}
+.contenidoconsulta p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	margin-right: 70px;
+}
+.contenidoconsulta p span b a{
+	text-decoration: none;
+	color: #44bd32;
+}
+.contenidoconsulta video{
+	height: 300px;
+	width: auto;
+}
+.logo{
+	z-index: 2000000000;
+	margin-left: 640px;
+	height: 450px;
+	width: auto;
+	margin-top:-400px;
+	margin-bottom: 50px;
+}
+.contenedoricon2{
+	margin-left: 260px;
+	display: flex;
+	margin-top: -45px;
+}
+.contenedoricon2 a{
+	margin-left: 10px;
+	-webkit-transition-duration: 1s;
+  	-moz-transition-duration: 1s;
+  	-o-transition-duration: 1s;
+  	transition-duration: 1s;
+}
+.contenedoricon2 a:hover{
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transform:scale(1.05);
+  	-moz-transition-duration:(1.05);
+  	-o-transition-duration:(1.05);
+  	transform:scale(1.05);
+}
+.encuentranos{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.rem;
+	margin-left: 100px;
+	margin-top: -30px;
+}
+.iconlinkedin{
+	margin-top: 2px;
+}
+.copy{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+/*---------------------------------------ESTILOS RESPONSIVE------------------------------------------*/
+@media screen and (max-width:1250px){
+	.contenedoricon{
+		margin-left:1090px;
+		margin-top: -5px;
+	}
+	.contenedormenu{
+		margin-left:340px;
+		margin-top: -45px;
+		width: 850px;
+	}
+	.contenedormenu a{
+		margin-top: 10px;
+	}
+	.logo{
+		z-index: 1000000;
+		height: 400px;
+		width: auto;
+		margin-left: 550px;
+		margin-top: -430px;
+		display: block;
+	}
+	.titulodescripcion{
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	.titulodescripcion2{
+		margin-left: 50px;
+		margin-top: 30px;
+		margin-right: 500px;
+	}
+	.espaciobtn{
+		height: 50px;
+	}
+	.encuentranos{
+		margin-left: 50px;
+		margin-top: -60px;
+	}
+	.contenedoricon2{
+		margin-left: 220px;
+		margin-right: 100px;
+	}
+	.copy{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width:1000px){
+	.contenedoricon{
+		margin-left: 830px;
+		margin-top: -70px;
+	}
+	.contenedormenu{
+		margin-left:20px;
+		margin-top: 20px;
+		width: 850px;
+	}
+	.contenedormenu a{
+		margin-top: 10px;
+	}
+	.contenidoconsulta{
+		margin-left: 40px;
+	}
+	.titulofyv{
+		margin-left: 50px;
+		margin-right: 40px;
+		margin-top: 130px;
+		font-size: 2rem;
+	}
+	.logo{
+		z-index: 1000000;
+		height: 340px;
+		width: auto;
+		margin-left: 400px;
+		margin-top: -400px;
+		display: block;
+	}
+	.titulodescripcion{
+		margin-left: 50px;
+		margin-top: 40px;
+	}
+	.titulodescripcion2{
+		margin-left: 50px;
+		margin-top: 30px;
+		margin-right: 500px;
+	}
+	.espaciobtn{
+		height: 50px;
+	}
+	.encuentranos{
+		margin-left: 50px;
+		margin-top: -30px;
+	}
+	.contenedoricon2{
+		margin-left: 220px;
+		margin-right: 100px;
+	}
+	.copy{
+		margin-top: 30px;
+	}
+}

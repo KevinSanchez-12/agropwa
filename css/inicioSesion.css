@@ -1,0 +1,388 @@
+.espaciotitulo {
+    height: 30px;
+}
+
+
+/* --------------MENSAJE--------------- */
+
+.mensaje {
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+
+.mensaje p {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* ------------------------------------ */
+
+
+/* --------RECUPERAR CONTRASEÑA-------- */
+
+.recuperar {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+/* ------------------------------------ */
+
+.tituloagropwa {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.tituloagropwa span {
+    color: #44bd32;
+}
+
+.contenedormenu {
+    height: 10px;
+    width: 740px;
+    display: flex;
+    margin-left: 400px;
+    margin-top: -35px;
+}
+
+.contenedormenu a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedormenu a:hover {
+    color: #44bd32;
+}
+
+.contenedoricon {
+    margin-left: 1200px;
+    display: flex;
+    margin-top: -15px;
+}
+
+.contenedoricon a {
+    margin-left: 10px;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.contenedoricon a:hover {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transform: scale(1.05);
+    -moz-transition-duration: (1.05);
+    -o-transition-duration: (1.05);
+    transform: scale(1.05);
+}
+
+.contenedoriniciarsesion {
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.contenedoriniciarsesion h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.iconusuario {
+    margin-left: 175px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.inputcorreo {
+    height: 30px;
+    width: 220px;
+    border: 2px solid black;
+    margin-left: 85px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 100px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.iconcontra {
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.inputcontra {
+    height: 30px;
+    width: 220px;
+    border: 2px solid black;
+    margin-left: 85px;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.espaciois {
+    height: 40px;
+}
+
+.btnlogeo {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: 2px solid #44bd32;
+    background-color: #44bd32;
+    border-radius: 100px;
+    padding: 10px 10px;
+    margin-left: 145px;
+    margin-top: 25px;
+}
+
+.logo {
+    margin-left: 600px;
+    height: 400px;
+    width: auto;
+    margin-top: -450px;
+}
+
+.contenedoricon2 {
+    margin-left: 260px;
+    display: flex;
+    margin-top: -45px;
+}
+
+.contenedoricon2 a {
+    margin-left: 10px;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.contenedoricon2 a:hover {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transform: scale(1.05);
+    -moz-transition-duration: (1.05);
+    -o-transition-duration: (1.05);
+    transform: scale(1.05);
+}
+
+.encuentranos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.rem;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.iconlinkedin {
+    margin-top: 2px;
+}
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+/*---------------------------------------ESTILOS RESPONSIVE------------------------------------------*/
+
+@media screen and (max-width:1250px) {
+    .contenedoricon {
+        margin-left: 1080px;
+        margin-top: -5px;
+    }
+    .contenedormenu {
+        margin-left: 320px;
+        margin-top: -45px;
+        width: 715px;
+    }
+    .contenedormenu a {
+        margin-top: 10px;
+    }
+    .contenedoriniciarsesion {
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    .contenedoriniciarsesion input {
+        margin-top: -10px;
+    }
+    .logo {
+        height: 400px;
+        width: auto;
+        display: block;
+        margin-left: 400px;
+        margin-top: -420px;
+    }
+    .espaciois {
+        height: 60px;
+    }
+    .encuentranos {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .contenedoricon2 {
+        margin-left: 220px;
+        margin-right: 100px;
+    }
+    .copy {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .contenedoricon {
+        margin-left: 800px;
+        margin-top: -60px;
+    }
+    .contenedormenu {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 715px;
+    }
+    .contenedormenu a {
+        margin-top: 10px;
+    }
+    .contenedoriniciarsesion {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .contenedoriniciarsesion input {
+        margin-top: -10px;
+    }
+    .logo {
+        height: 350px;
+        width: auto;
+        display: block;
+        margin-left: 350px;
+        margin-top: -380px;
+    }
+    .espaciois {
+        height: 60px;
+    }
+    .encuentranos {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .contenedoricon2 {
+        margin-left: 220px;
+        margin-right: 100px;
+    }
+    .copy {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .tituloagropwa {
+        margin-left: 40px;
+    }
+    .contenedoricon {
+        margin-left: 590px;
+        margin-top: -40px;
+    }
+    .contenedormenu {
+        margin-left: -10px;
+        margin-top: 10px;
+        width: 715px;
+        display: none;
+    }
+    .contenedormenu a {
+        margin-top: 10px;
+    }
+    .contenedoriniciarsesion {
+        margin-left: -30px;
+        margin-top: 80px;
+    }
+    .contenedoriniciarsesion input {
+        margin-top: -10px;
+    }
+    .logo {
+        height: 250px;
+        width: auto;
+        display: block;
+        margin-left: 300px;
+        margin-top: -340px;
+    }
+    .espaciois {
+        height: 60px;
+    }
+    .encuentranos {
+        margin-left: 50px;
+        margin-top: 90px;
+    }
+    .contenedoricon2 {
+        margin-left: 220px;
+        margin-right: 100px;
+    }
+    .copy {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contenedoricon {
+        margin-left: 340px;
+        margin-top: -40px;
+    }
+    .contenedormenu {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 300px;
+        display: none;
+    }
+    .contenedormenu a {
+        margin-top: 10px;
+    }
+    .contenedoriniciarsesion {
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+    .contenedoriniciarsesion input {
+        margin-top: -10px;
+    }
+    .logo {
+        display: none;
+    }
+    .encuentranos {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .contenedoricon2 {
+        margin-left: 190px;
+        margin-right: 100px;
+    }
+    .copy {
+        margin-top: 40px;
+    }
+}
